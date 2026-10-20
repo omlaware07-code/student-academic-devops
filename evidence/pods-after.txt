@@ -1,0 +1,4 @@
+NAME                                          READY   STATUS    RESTARTS   AGE   IP           NODE       NOMINATED NODE   READINESS GATES
+student-academic-deployment-cd4c97c6f-bdjsg   1/1     Running   0          16m   10.244.0.3   minikube   <none>           <none>
+student-academic-deployment-cd4c97c6f-gl9bj   1/1     Running   0          14s   10.244.0.6   minikube   <none>           <none>
+student-academic-deployment-cd4c97c6f-vv9bq   1/1     Running   0          16m   10.244.0.4   minikube   <none>           <none>
