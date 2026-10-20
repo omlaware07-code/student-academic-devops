@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.2.1, pluggy-1.6.0 -- /Users/om/Downloads/Om_Laware_Student_Academic_DevOps_Project/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/om/Downloads/Om_Laware_Student_Academic_DevOps_Project
+plugins: cov-5.0.0
+collecting ... collected 8 items
+
+tests/test_academic_service.py::test_student_creation PASSED             [ 12%]
+tests/test_academic_service.py::test_conflict_prevention PASSED          [ 25%]
+tests/test_academic_service.py::test_weighted_gpa PASSED                 [ 37%]
+tests/test_academic_service.py::test_credit_limit PASSED                 [ 50%]
+tests/test_api_endpoints.py::test_health PASSED                          [ 62%]
+tests/test_api_endpoints.py::test_students PASSED                        [ 75%]
+tests/test_api_endpoints.py::test_enroll_and_gpa PASSED                  [ 87%]
+tests/test_api_endpoints.py::test_bad_grade PASSED                       [100%]
+
+============================== 8 passed in 0.02s ===============================
